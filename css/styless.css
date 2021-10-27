@@ -755,12 +755,11 @@ ul {
 
 .form-icon {
     position: absolute;
-    right: 461px;
-    margin-top: 14px;
+    left: 14px;
+    top: 50%;
     pointer-events: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* transform: translateY(-50%); */
-    /* fill: var(--sect-team-bg-color); */
+    transform: translateY(-50%);
 }
 
 .modal-title {
@@ -882,6 +881,11 @@ ul {
 
 .modal-svg {
     fill: currentColor;
+}
+
+.input-wrapper {
+    display: block;
+    position: relative;
 }
 
 
